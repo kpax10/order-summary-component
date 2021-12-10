@@ -18,17 +18,55 @@ body {
     height: 100vh;
 }
 
+p {
+    font-size: 16px;
+    color: hsl(224, 23%, 55%);
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 1.1rem;
+    margin-top: 1.7rem;
+}
+
 .card {
     display: flex;
     flex-direction: column;
-    width: 14rem;
-    height: 28rem;
-    border-radius: 0.7rem;
-    background-color: red;
+    width: 16.5rem;
+    height: 28.5rem;
+    border-radius: 1rem;
+    background-color: white;
 }
 
 .hero-image {
     max-height: 100%;
     max-width: 100%;
-    border-radius: 0.7rem 0.7rem 0 0;
+    border-radius: 1rem 1rem 0 0;
+}
+
+.card-details {
+    padding: 0 1.2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text-detail {
+    margin-top: 1rem;
+    font-weight: ;
+    line-height: 1.2rem;
+    text-align: center;
+    padding: 0 0.3rem;
+}
+
+.plan {
+    display: flex;
+    margin-top: 1.2rem;
+    /* padding: 1rem 1.2rem; */
+    background-color: black;
+}
+
+.pricing {
+    display: flex;
+    flex-direction: column;
 }
