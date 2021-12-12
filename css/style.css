@@ -39,6 +39,8 @@ h1 {
     height: 35rem;
     border-radius: 1.3rem;
     background-color: white;
+    box-shadow: 0 1rem 2rem hsl(224, 23%, 55%, 0.2);
+    ;
 }
 
 .hero-image {
@@ -103,7 +105,7 @@ h1 {
     border: none;
     margin-top: 1.5rem;
     border-radius: 0.7rem;
-    box-shadow: 0 1rem 1rem hsl(245, 75%, 52%, 0.2);
+    box-shadow: 0 1.3rem 1rem hsl(245, 75%, 52%, 0.15);
 }
 
 .cancel {
@@ -113,4 +115,39 @@ h1 {
     font-weight: 700;
     font-size: 1rem;
     margin-top: 1.5rem;
+}
+
+@media (min-width: 900px) {
+    .card {
+        width: 28rem;
+        height: 44rem;
+    }
+    body {
+        background-image: url(/images/pattern-background-desktop.svg);
+    }
+    h1 {
+        font-size: 1.75rem;
+        margin-top: 3.1rem;
+    }
+    .card-details {
+        padding: 0 3rem;
+    }
+    .text-detail {
+        line-height: 1.6rem;
+    }
+    .plan {
+        padding: 1.5rem;
+    }
+    .pricing {
+        margin-left: -5rem;
+    }
+    .pricing p {
+        font-size: 1rem;
+    }
+    .payment {
+        margin-top: 2rem;
+    }
+    .cancel {
+        margin-top: 2.3rem;
+    }
 }
