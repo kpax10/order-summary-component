@@ -94,6 +94,8 @@ h1 {
 .change {
     font-size: 0.85rem;
     text-decoration: underline;
+    font-weight: 800;
+    color: hsl(245, 75%, 52%);
 }
 
 .payment {
@@ -115,6 +117,15 @@ h1 {
     font-weight: 700;
     font-size: 1rem;
     margin-top: 1.5rem;
+}
+
+.change:hover, .payment:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.cancel:hover {
+    color: black;
 }
 
 @media (min-width: 900px) {
