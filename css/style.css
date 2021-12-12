@@ -21,52 +21,95 @@ body {
 p {
     font-size: 16px;
     color: hsl(224, 23%, 55%);
+    font-weight: 500;
+    /* letter-spacing: .1rem; */
 }
 
 h1 {
     font-weight: 900;
-    font-size: 1.1rem;
-    margin-top: 1.7rem;
+    font-size: 1.35rem;
+    margin-top: 2.3rem;
+    text-align: center;
 }
 
 .card {
     display: flex;
     flex-direction: column;
-    width: 16.5rem;
-    height: 28.5rem;
-    border-radius: 1rem;
+    width: 20.5rem;
+    height: 35rem;
+    border-radius: 1.3rem;
     background-color: white;
 }
 
 .hero-image {
     max-height: 100%;
     max-width: 100%;
-    border-radius: 1rem 1rem 0 0;
+    border-radius: 1.3em 1.3rem 0 0;
 }
 
 .card-details {
-    padding: 0 1.2rem;
+    padding: 0 1.4rem;
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
 .text-detail {
-    margin-top: 1rem;
-    font-weight: ;
-    line-height: 1.2rem;
+    margin-top: 1.3rem;
+    /* font-weight: 500; */
+    line-height: 1.5rem;
     text-align: center;
-    padding: 0 0.3rem;
+    padding: 0 0.6rem;
 }
 
 .plan {
     display: flex;
-    margin-top: 1.2rem;
+    margin-top: 1.6rem;
     /* padding: 1rem 1.2rem; */
-    background-color: black;
+    background-color: hsl(225, 100%, 98%);
+    padding: 1rem;
+    border-radius: 0.7rem;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .pricing {
     display: flex;
     flex-direction: column;
+    height: 100%;
+    justify-content: space-around;
+    margin-left: -1.5rem;
+}
+
+.pricing p {
+    font-size: 0.9rem;
+}
+
+.pricing .annual {
+    color: black;
+    font-weight: 800;
+}
+
+.change {
+    font-size: 0.85rem;
+    text-decoration: underline;
+}
+
+.payment {
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    font-weight: 900;
+    font-size: 1rem;
+    padding: 1rem 0;
+    border: none;
+    margin-top: 1.5rem;
+    border-radius: 0.7rem;
+}
+
+.cancel {
+    text-align: center;
+    color: hsl(224, 23%, 55%);
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1rem;
+    margin-top: 1.5rem;
 }
