@@ -4,7 +4,7 @@ html {
 }
 
 body {
-    background-image: url(images/pattern-background-mobile.svg);
+    background-image: url(https://kpax10.github.io/order-summary-component/images/pattern-background-mobile.svg);
     background-size: contain;
     background-repeat: no-repeat;
     background-color: hsl(225, 100%, 94%);
@@ -128,7 +128,7 @@ h1 {
         height: 44rem;
     }
     body {
-        background-image: url(images/pattern-background-desktop.svg);
+        background-image: url(https://kpax10.github.io/order-summary-component/images/pattern-background-desktop.svg);
     }
     h1 {
         font-size: 1.75rem;
