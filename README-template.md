@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](/screenshot-order-summary-card.png)
+![](screenshot-order-summary-card.png)
 
 ### Links
 

@@ -7,7 +7,7 @@ html {
 }
 
 body {
-    background-image: url(/images/pattern-background-mobile.svg);
+    background-image: url(images/pattern-background-mobile.svg);
     background-size: contain;
     background-repeat: no-repeat;
     background-color: hsl(225, 100%, 94%);
@@ -22,7 +22,6 @@ p {
     font-size: 16px;
     color: hsl(224, 23%, 55%);
     font-weight: 500;
-    /* letter-spacing: .1rem; */
 }
 
 h1 {
@@ -57,7 +56,6 @@ h1 {
 
 .text-detail {
     margin-top: 1.3rem;
-    /* font-weight: 500; */
     line-height: 1.5rem;
     text-align: center;
     padding: 0 0.6rem;
@@ -66,7 +64,6 @@ h1 {
 .plan {
     display: flex;
     margin-top: 1.6rem;
-    /* padding: 1rem 1.2rem; */
     background-color: hsl(225, 100%, 98%);
     padding: 1rem;
     border-radius: 0.7rem;
@@ -134,7 +131,7 @@ h1 {
         height: 44rem;
     }
     body {
-        background-image: url(/images/pattern-background-desktop.svg);
+        background-image: url(images/pattern-background-desktop.svg);
     }
     h1 {
         font-size: 1.75rem;
