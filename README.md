@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://www.frontendmentor.io/solutions/responsive-order-summary-page-WCQ2DXIQo](https://your-solution-url.com)
-- Live Site URL: [https://kpax10.github.io/order-summary-component/](https://your-live-site-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/responsive-order-summary-page-WCQ2DXIQo](https://www.frontendmentor.io/solutions/responsive-order-summary-page-WCQ2DXIQo)
+- Live Site URL: [https://kpax10.github.io/order-summary-component/](https://kpax10.github.io/order-summary-component/)
 
 ## My process
 
